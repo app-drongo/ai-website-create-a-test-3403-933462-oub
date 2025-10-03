@@ -43,7 +43,11 @@ export default function Navigation({ isTransparent = false, lightText = false }:
   const navigation = [
   {
     name: "Home",
-    href: "#hero"
+    href: "/"
+  },
+  {
+    name: "Pricing",
+    href: "#pricing"
   }
 ];
 
